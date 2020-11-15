@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Home
+        </title>
+        <style>
+          body, html 
+          {
+          height: 100%;
+          margin: 0;
+          background-image: url("pic.jpg");
+          height: 100%; 
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          }
+            * {
+              box-sizing: border-box;
+              }
+            #header1
+            { margin-top: 0.25cm;
+                background-color: white;
+            }
+          #img{
+              height: 95px;
+              width: 180px;
+              margin-left: 3cm;
+          }
+          #cu
+          {
+              border-color: white;
+            padding: 15px 32px;
+              margin-left: 16cm;
+              background-color: white;
+              color: blue ;
+              font-size: 15px;
+             border-radius: 0.5cm;
+             position: absolute;
+             margin-top: 0.5cm;
+          }
+          #log
+          {
+              border-color: white;
+            background-color: white;
+              color: blue ;
+            margin-left: 20.5cm;
+            margin-top: 0.5cm;
+            padding: 15px 32px;
+            font-size: 15px;
+            border-radius: 0.5cm;
+            position: absolute;
+          }
+          #cu:hover
+          {
+              cursor: pointer;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+            transition: 0.5s;
+          }
+          #log:hover
+          {
+            cursor: pointer;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+            transition: 0.5s;
+          }
+          #home1
+          {
+             margin-left: 3.5cm; 
+          }
+          #rules1,#guidelines
+          {
+              margin-left: 3.5cm;
+              font-size: 45px;
+          }
+          #intro
+          {
+              margin-left: 3.5cm;
+              margin-right: 3.5cm;
+              font-size: 25px;
+          }
+          #finall
+          {
+            font-size: 42px;
+            font-family: cursive;
+            color: teal;
+            text-align: center;
+            animation: mymove 5s infinite;
+            animation-timing-function: ease-in-out;
+          }
+          @keyframes mymove {
+          from {left: 0px;}
+          to {left: 300px;}
+          }
+        </style>
+    </head>
+    <body>
+           <header id="header1">
+
+               <a href="https://tripupp.com/"><img src="data:image/jpeg;base64,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" id="img"></a>
+               <a href="#" style="text-decoration: none;"><button id="cu">Contact Us</button></a>
+               <a href="#" style="text-decoration: none;"><button id=log>Login</button></a>
+           </header>
+           <hr>
+           <a href="index.html" style="text-decoration: none;"><span id="home1">Home</span></a>
+           <h1 align="center">About US</h1>
+         <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo aperiam eveniet pariatur a impedit vitae nulla aliquid! Commodi cupiditate placeat quasi. Animi doloribus omnis iste suscipit aperiam alias tempora rem.</span>
+         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sunt est amet repudiandae deserunt, dicta soluta odit, necessitatibus eum, a veniam repellendus doloremque aliquam eos explicabo corrupti numquam? Praesentium, similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio est sapiente, eum ex perspiciatis ab mollitia dolore quam saepe aliquid debitis voluptas laudantium voluptatem, itaque dolorem aspernatur! Hic, atque magnam?</span>
+        <hr><br><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, cupiditate. Et officiis temporibus ea error voluptates, maxime laborum commodi ex perspiciatis itaque eius praesentium sapiente saepe quaerat. Rem, repellendus omnis.</p><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><div>
+          <div id="finall">The Right place for RIGHT Knowledge!</div>
+        </div><br><br><br>
+        <footer>
+            <div>
+                <p style="text-align: center; background-color: tomato;">Copyright © 2020 - Tripupp</p>
+            </div>
+        </footer>
+    </body>
+</html>
